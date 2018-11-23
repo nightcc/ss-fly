@@ -7,8 +7,8 @@ yellow='\033[0;33m'
 plain='\033[0m'
 
 os='ossystem'
-password='flyzy2005.com'
-port='1024'
+password='a31415926'
+port='52264'
 libsodium_file="libsodium-1.0.16"
 libsodium_url="https://github.com/jedisct1/libsodium/releases/download/1.0.16/libsodium-1.0.16.tar.gz"
 
@@ -448,7 +448,6 @@ install() {
         echo -e "你的密码            ：\033[41;37m ${password} \033[0m"
         echo -e "你的端口            ：\033[41;37m ${port} \033[0m"
         echo -e "你的加密方式        ：\033[41;37m aes-256-cfb \033[0m"
-        echo -e "欢迎访问flyzy小站   ：\033[41;37m https://www.flyzy2005.com \033[0m"
         get_ss_link
 }
 
